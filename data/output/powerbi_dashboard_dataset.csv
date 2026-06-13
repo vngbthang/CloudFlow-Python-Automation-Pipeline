@@ -1,0 +1,1027 @@
+report_type,dimension,metric,value
+daily_revenue,2024-01-01,total_revenue,1999.98
+daily_revenue,2024-01-01,total_orders,1.0
+daily_revenue,2024-01-02,total_revenue,499.99
+daily_revenue,2024-01-02,total_orders,1.0
+daily_revenue,2024-01-03,total_revenue,209.97
+daily_revenue,2024-01-03,total_orders,1.0
+daily_revenue,2024-01-04,total_revenue,63.96
+daily_revenue,2024-01-04,total_orders,1.0
+daily_revenue,2024-01-05,total_revenue,89.99
+daily_revenue,2024-01-05,total_orders,1.0
+daily_revenue,2024-01-06,total_revenue,149.95
+daily_revenue,2024-01-06,total_orders,1.0
+daily_revenue,2024-01-07,total_revenue,2499.99
+daily_revenue,2024-01-07,total_orders,1.0
+daily_revenue,2024-01-08,total_revenue,1199.98
+daily_revenue,2024-01-08,total_orders,1.0
+daily_revenue,2024-01-09,total_revenue,539.94
+daily_revenue,2024-01-09,total_orders,1.0
+daily_revenue,2024-01-10,total_revenue,51.98
+daily_revenue,2024-01-10,total_orders,1.0
+daily_revenue,2024-01-11,total_revenue,129.99
+daily_revenue,2024-01-11,total_orders,1.0
+daily_revenue,2024-01-12,total_revenue,599.97
+daily_revenue,2024-01-12,total_orders,1.0
+daily_revenue,2024-01-13,total_revenue,1499.98
+daily_revenue,2024-01-13,total_orders,1.0
+daily_revenue,2024-01-14,total_revenue,189.99
+daily_revenue,2024-01-14,total_orders,1.0
+daily_revenue,2024-01-15,total_revenue,499.98
+daily_revenue,2024-01-15,total_orders,1.0
+daily_revenue,2024-01-16,total_revenue,107.97
+daily_revenue,2024-01-16,total_orders,1.0
+daily_revenue,2024-01-17,total_revenue,399.99
+daily_revenue,2024-01-17,total_orders,1.0
+daily_revenue,2024-01-18,total_revenue,479.96
+daily_revenue,2024-01-18,total_orders,1.0
+daily_revenue,2024-01-19,total_revenue,999.98
+daily_revenue,2024-01-19,total_orders,1.0
+daily_revenue,2024-01-20,total_revenue,99.99
+daily_revenue,2024-01-20,total_orders,1.0
+daily_revenue,2024-01-21,total_revenue,179.97
+daily_revenue,2024-01-21,total_orders,1.0
+daily_revenue,2024-01-22,total_revenue,45.98
+daily_revenue,2024-01-22,total_orders,1.0
+daily_revenue,2024-01-23,total_revenue,49.99
+daily_revenue,2024-01-23,total_orders,1.0
+daily_revenue,2024-01-24,total_revenue,89.97
+daily_revenue,2024-01-24,total_orders,1.0
+daily_revenue,2024-01-25,total_revenue,299.99
+daily_revenue,2024-01-25,total_orders,1.0
+daily_revenue,2024-01-26,total_revenue,179.99
+daily_revenue,2024-01-26,total_orders,1.0
+daily_revenue,2024-01-27,total_revenue,359.98
+daily_revenue,2024-01-27,total_orders,1.0
+daily_revenue,2024-01-28,total_revenue,38.97
+daily_revenue,2024-01-28,total_orders,1.0
+daily_revenue,2024-01-29,total_revenue,29.99
+daily_revenue,2024-01-29,total_orders,1.0
+daily_revenue,2024-01-30,total_revenue,259.98
+daily_revenue,2024-01-30,total_orders,1.0
+daily_revenue,2024-01-31,total_revenue,699.98
+daily_revenue,2024-01-31,total_orders,1.0
+daily_revenue,2024-02-01,total_revenue,269.97
+daily_revenue,2024-02-01,total_orders,1.0
+daily_revenue,2024-02-02,total_revenue,149.95
+daily_revenue,2024-02-02,total_orders,1.0
+daily_revenue,2024-02-03,total_revenue,79.96
+daily_revenue,2024-02-03,total_orders,1.0
+daily_revenue,2024-02-04,total_revenue,79.98
+daily_revenue,2024-02-04,total_orders,1.0
+daily_revenue,2024-02-05,total_revenue,1895.0
+daily_revenue,2024-02-05,total_orders,1.0
+daily_revenue,2024-02-06,total_revenue,1199.97
+daily_revenue,2024-02-06,total_orders,1.0
+daily_revenue,2024-02-07,total_revenue,1599.98
+daily_revenue,2024-02-07,total_orders,1.0
+daily_revenue,2024-02-08,total_revenue,239.96
+daily_revenue,2024-02-08,total_orders,1.0
+daily_revenue,2024-02-09,total_revenue,74.97
+daily_revenue,2024-02-09,total_orders,1.0
+daily_revenue,2024-02-10,total_revenue,105.0
+daily_revenue,2024-02-10,total_orders,1.0
+daily_revenue,2024-02-11,total_revenue,259.98
+daily_revenue,2024-02-11,total_orders,1.0
+daily_revenue,2024-02-12,total_revenue,1199.97
+daily_revenue,2024-02-12,total_orders,1.0
+daily_revenue,2024-02-13,total_revenue,199.99
+daily_revenue,2024-02-13,total_orders,1.0
+daily_revenue,2024-02-14,total_revenue,279.98
+daily_revenue,2024-02-14,total_orders,1.0
+daily_revenue,2024-02-15,total_revenue,130.0
+daily_revenue,2024-02-15,total_orders,1.0
+daily_revenue,2024-02-16,total_revenue,52.0
+daily_revenue,2024-02-16,total_orders,1.0
+daily_revenue,2024-02-17,total_revenue,239.94
+daily_revenue,2024-02-17,total_orders,1.0
+daily_revenue,2024-02-18,total_revenue,259.98
+daily_revenue,2024-02-18,total_orders,1.0
+daily_revenue,2024-02-19,total_revenue,299.99
+daily_revenue,2024-02-19,total_orders,1.0
+daily_revenue,2024-02-20,total_revenue,464.97
+daily_revenue,2024-02-20,total_orders,1.0
+daily_revenue,2024-02-21,total_revenue,53.98
+daily_revenue,2024-02-21,total_orders,1.0
+daily_revenue,2024-02-22,total_revenue,49.0
+daily_revenue,2024-02-22,total_orders,1.0
+daily_revenue,2024-02-23,total_revenue,249.95
+daily_revenue,2024-02-23,total_orders,1.0
+daily_revenue,2024-02-24,total_revenue,239.96
+daily_revenue,2024-02-24,total_orders,1.0
+daily_revenue,2024-02-25,total_revenue,499.99
+daily_revenue,2024-02-25,total_orders,1.0
+daily_revenue,2024-02-26,total_revenue,149.95
+daily_revenue,2024-02-26,total_orders,1.0
+daily_revenue,2024-02-27,total_revenue,84.0
+daily_revenue,2024-02-27,total_orders,1.0
+daily_revenue,2024-02-28,total_revenue,46.0
+daily_revenue,2024-02-28,total_orders,1.0
+daily_revenue,2024-02-29,total_revenue,349.0
+daily_revenue,2024-02-29,total_orders,1.0
+daily_revenue,2024-03-01,total_revenue,899.97
+daily_revenue,2024-03-01,total_orders,1.0
+daily_revenue,2024-03-02,total_revenue,399.98
+daily_revenue,2024-03-02,total_orders,1.0
+daily_revenue,2024-03-03,total_revenue,99.9
+daily_revenue,2024-03-03,total_orders,1.0
+daily_revenue,2024-03-04,total_revenue,75.96
+daily_revenue,2024-03-04,total_orders,1.0
+daily_revenue,2024-03-05,total_revenue,102.0
+daily_revenue,2024-03-05,total_orders,1.0
+daily_revenue,2024-03-06,total_revenue,599.98
+daily_revenue,2024-03-06,total_orders,1.0
+daily_revenue,2024-03-07,total_revenue,1199.99
+daily_revenue,2024-03-07,total_orders,1.0
+daily_revenue,2024-03-08,total_revenue,659.97
+daily_revenue,2024-03-08,total_orders,1.0
+daily_revenue,2024-03-09,total_revenue,239.96
+daily_revenue,2024-03-09,total_orders,1.0
+daily_revenue,2024-03-10,total_revenue,21.98
+daily_revenue,2024-03-10,total_orders,1.0
+daily_revenue,2024-03-11,total_revenue,78.0
+daily_revenue,2024-03-11,total_orders,1.0
+daily_revenue,2024-03-12,total_revenue,389.97
+daily_revenue,2024-03-12,total_orders,1.0
+daily_revenue,2024-03-13,total_revenue,1599.99
+daily_revenue,2024-03-13,total_orders,1.0
+daily_revenue,2024-03-14,total_revenue,899.99
+daily_revenue,2024-03-14,total_orders,1.0
+daily_revenue,2024-03-15,total_revenue,249.95
+daily_revenue,2024-03-15,total_orders,1.0
+daily_revenue,2024-03-16,total_revenue,59.96
+daily_revenue,2024-03-16,total_orders,1.0
+daily_revenue,2024-03-17,total_revenue,32.0
+daily_revenue,2024-03-17,total_orders,1.0
+daily_revenue,2024-03-18,total_revenue,209.97
+daily_revenue,2024-03-18,total_orders,1.0
+daily_revenue,2024-03-19,total_revenue,499.98
+daily_revenue,2024-03-19,total_orders,1.0
+daily_revenue,2024-03-20,total_revenue,499.99
+daily_revenue,2024-03-20,total_orders,1.0
+daily_revenue,2024-03-21,total_revenue,179.98
+daily_revenue,2024-03-21,total_orders,1.0
+daily_revenue,2024-03-22,total_revenue,38.97
+daily_revenue,2024-03-22,total_orders,1.0
+daily_revenue,2024-03-23,total_revenue,100.0
+daily_revenue,2024-03-23,total_orders,1.0
+daily_revenue,2024-03-24,total_revenue,149.94
+daily_revenue,2024-03-24,total_orders,1.0
+daily_revenue,2024-03-25,total_revenue,99.99
+daily_revenue,2024-03-25,total_orders,1.0
+daily_revenue,2024-03-26,total_revenue,2599.98
+daily_revenue,2024-03-26,total_orders,1.0
+daily_revenue,2024-03-27,total_revenue,239.97
+daily_revenue,2024-03-27,total_orders,1.0
+daily_revenue,2024-03-28,total_revenue,55.96
+daily_revenue,2024-03-28,total_orders,1.0
+daily_revenue,2024-03-29,total_revenue,105.0
+daily_revenue,2024-03-29,total_orders,1.0
+daily_revenue,2024-03-30,total_revenue,259.98
+daily_revenue,2024-03-30,total_orders,1.0
+daily_revenue,2024-03-31,total_revenue,199.98
+daily_revenue,2024-03-31,total_orders,1.0
+daily_revenue,2024-04-01,total_revenue,179.99
+daily_revenue,2024-04-01,total_orders,1.0
+daily_revenue,2024-04-02,total_revenue,319.96
+daily_revenue,2024-04-02,total_orders,1.0
+daily_revenue,2024-04-03,total_revenue,44.97
+daily_revenue,2024-04-03,total_orders,1.0
+daily_revenue,2024-04-04,total_revenue,68.0
+daily_revenue,2024-04-04,total_orders,1.0
+daily_revenue,2024-04-05,total_revenue,999.99
+daily_revenue,2024-04-05,total_orders,1.0
+daily_revenue,2024-04-06,total_revenue,899.97
+daily_revenue,2024-04-06,total_orders,1.0
+daily_revenue,2024-04-07,total_revenue,349.99
+daily_revenue,2024-04-07,total_orders,1.0
+daily_revenue,2024-04-08,total_revenue,119.94
+daily_revenue,2024-04-08,total_orders,1.0
+daily_revenue,2024-04-09,total_revenue,25.98
+daily_revenue,2024-04-09,total_orders,1.0
+daily_revenue,2024-04-10,total_revenue,82.0
+daily_revenue,2024-04-10,total_orders,1.0
+daily_revenue,2024-04-11,total_revenue,219.98
+daily_revenue,2024-04-11,total_orders,1.0
+daily_revenue,2024-04-12,total_revenue,3899.99
+daily_revenue,2024-04-12,total_orders,1.0
+daily_revenue,2024-04-13,total_revenue,699.98
+daily_revenue,2024-04-13,total_orders,1.0
+daily_revenue,2024-04-14,total_revenue,119.97
+daily_revenue,2024-04-14,total_orders,1.0
+daily_revenue,2024-04-15,total_revenue,43.96
+daily_revenue,2024-04-15,total_orders,1.0
+daily_revenue,2024-04-16,total_revenue,6.5
+daily_revenue,2024-04-16,total_orders,1.0
+daily_revenue,2024-04-17,total_revenue,399.99
+daily_revenue,2024-04-17,total_orders,1.0
+daily_revenue,2024-04-18,total_revenue,459.98
+daily_revenue,2024-04-18,total_orders,1.0
+daily_revenue,2024-04-19,total_revenue,159.99
+daily_revenue,2024-04-19,total_orders,1.0
+daily_revenue,2024-04-20,total_revenue,59.96
+daily_revenue,2024-04-20,total_orders,1.0
+daily_revenue,2024-04-21,total_revenue,37.98
+daily_revenue,2024-04-21,total_orders,1.0
+daily_revenue,2024-04-22,total_revenue,15.0
+daily_revenue,2024-04-22,total_orders,1.0
+daily_revenue,2024-04-23,total_revenue,689.85
+daily_revenue,2024-04-23,total_orders,1.0
+daily_revenue,2024-04-24,total_revenue,249.99
+daily_revenue,2024-04-24,total_orders,1.0
+daily_revenue,2024-04-25,total_revenue,599.9
+daily_revenue,2024-04-25,total_orders,1.0
+daily_revenue,2024-04-26,total_revenue,149.97
+daily_revenue,2024-04-26,total_orders,1.0
+daily_revenue,2024-04-27,total_revenue,67.96
+daily_revenue,2024-04-27,total_orders,1.0
+daily_revenue,2024-04-28,total_revenue,29.98
+daily_revenue,2024-04-28,total_orders,1.0
+daily_revenue,2024-04-29,total_revenue,249.99
+daily_revenue,2024-04-29,total_orders,1.0
+daily_revenue,2024-04-30,total_revenue,1199.98
+daily_revenue,2024-04-30,total_orders,1.0
+daily_revenue,2024-05-01,total_revenue,89.99
+daily_revenue,2024-05-01,total_orders,1.0
+daily_revenue,2024-05-02,total_revenue,64.95
+daily_revenue,2024-05-02,total_orders,1.0
+daily_revenue,2024-05-03,total_revenue,44.97
+daily_revenue,2024-05-03,total_orders,1.0
+daily_revenue,2024-05-04,total_revenue,30.0
+daily_revenue,2024-05-04,total_orders,1.0
+daily_revenue,2024-05-05,total_revenue,199.99
+daily_revenue,2024-05-05,total_orders,1.0
+daily_revenue,2024-05-06,total_revenue,499.99
+daily_revenue,2024-05-06,total_orders,1.0
+daily_revenue,2024-05-07,total_revenue,799.98
+daily_revenue,2024-05-07,total_orders,1.0
+daily_revenue,2024-05-08,total_revenue,294.0
+daily_revenue,2024-05-08,total_orders,1.0
+daily_revenue,2024-05-09,total_revenue,17.98
+daily_revenue,2024-05-09,total_orders,1.0
+daily_revenue,2024-05-10,total_revenue,36.0
+daily_revenue,2024-05-10,total_orders,1.0
+daily_revenue,2024-05-11,total_revenue,159.8
+daily_revenue,2024-05-11,total_orders,1.0
+daily_revenue,2024-05-12,total_revenue,1299.99
+daily_revenue,2024-05-12,total_orders,1.0
+daily_revenue,2024-05-13,total_revenue,159.98
+daily_revenue,2024-05-13,total_orders,1.0
+daily_revenue,2024-05-14,total_revenue,139.96
+daily_revenue,2024-05-14,total_orders,1.0
+daily_revenue,2024-05-15,total_revenue,29.97
+daily_revenue,2024-05-15,total_orders,1.0
+daily_revenue,2024-05-16,total_revenue,6.8
+daily_revenue,2024-05-16,total_orders,1.0
+daily_revenue,2024-05-17,total_revenue,199.9
+daily_revenue,2024-05-17,total_orders,1.0
+daily_revenue,2024-05-18,total_revenue,1499.99
+daily_revenue,2024-05-18,total_orders,1.0
+daily_revenue,2024-05-19,total_revenue,139.99
+daily_revenue,2024-05-19,total_orders,1.0
+daily_revenue,2024-05-20,total_revenue,134.97
+daily_revenue,2024-05-20,total_orders,1.0
+daily_revenue,2024-05-21,total_revenue,23.98
+daily_revenue,2024-05-21,total_orders,1.0
+daily_revenue,2024-05-22,total_revenue,29.5
+daily_revenue,2024-05-22,total_orders,1.0
+daily_revenue,2024-05-23,total_revenue,299.99
+daily_revenue,2024-05-23,total_orders,1.0
+daily_revenue,2024-05-24,total_revenue,549.0
+daily_revenue,2024-05-24,total_orders,1.0
+daily_revenue,2024-05-25,total_revenue,399.9
+daily_revenue,2024-05-25,total_orders,1.0
+daily_revenue,2024-05-26,total_revenue,196.0
+daily_revenue,2024-05-26,total_orders,1.0
+daily_revenue,2024-05-27,total_revenue,32.97
+daily_revenue,2024-05-27,total_orders,1.0
+daily_revenue,2024-05-28,total_revenue,25.0
+daily_revenue,2024-05-28,total_orders,1.0
+daily_revenue,2024-05-29,total_revenue,299.98
+daily_revenue,2024-05-29,total_orders,1.0
+daily_revenue,2024-05-30,total_revenue,349.99
+daily_revenue,2024-05-30,total_orders,1.0
+daily_revenue,2024-05-31,total_revenue,399.98
+daily_revenue,2024-05-31,total_orders,1.0
+daily_revenue,2024-06-01,total_revenue,164.97
+daily_revenue,2024-06-01,total_orders,1.0
+daily_revenue,2024-06-02,total_revenue,33.98
+daily_revenue,2024-06-02,total_orders,1.0
+daily_revenue,2024-06-03,total_revenue,59.0
+daily_revenue,2024-06-03,total_orders,1.0
+daily_revenue,2024-06-04,total_revenue,299.99
+daily_revenue,2024-06-04,total_orders,1.0
+daily_revenue,2024-06-05,total_revenue,899.99
+daily_revenue,2024-06-05,total_orders,1.0
+daily_revenue,2024-06-06,total_revenue,499.95
+daily_revenue,2024-06-06,total_orders,1.0
+daily_revenue,2024-06-07,total_revenue,99.96
+daily_revenue,2024-06-07,total_orders,1.0
+daily_revenue,2024-06-08,total_revenue,23.97
+daily_revenue,2024-06-08,total_orders,1.0
+daily_revenue,2024-06-09,total_revenue,36.0
+daily_revenue,2024-06-09,total_orders,1.0
+daily_revenue,2024-06-10,total_revenue,69.98
+daily_revenue,2024-06-10,total_orders,1.0
+daily_revenue,2024-06-11,total_revenue,1199.99
+daily_revenue,2024-06-11,total_orders,1.0
+daily_revenue,2024-06-12,total_revenue,199.99
+daily_revenue,2024-06-12,total_orders,1.0
+daily_revenue,2024-06-13,total_revenue,149.95
+daily_revenue,2024-06-13,total_orders,1.0
+daily_revenue,2024-06-14,total_revenue,35.96
+daily_revenue,2024-06-14,total_orders,1.0
+daily_revenue,2024-06-15,total_revenue,16.99
+daily_revenue,2024-06-15,total_orders,1.0
+daily_revenue,2024-06-16,total_revenue,149.97
+daily_revenue,2024-06-16,total_orders,1.0
+daily_revenue,2024-06-17,total_revenue,699.99
+daily_revenue,2024-06-17,total_orders,1.0
+daily_revenue,2024-06-18,total_revenue,279.98
+daily_revenue,2024-06-18,total_orders,1.0
+daily_revenue,2024-06-19,total_revenue,104.97
+daily_revenue,2024-06-19,total_orders,1.0
+daily_revenue,2024-06-20,total_revenue,19.98
+daily_revenue,2024-06-20,total_orders,1.0
+daily_revenue,2024-06-21,total_revenue,29.5
+daily_revenue,2024-06-21,total_orders,1.0
+daily_revenue,2024-06-22,total_revenue,699.99
+daily_revenue,2024-06-22,total_orders,1.0
+daily_revenue,2024-06-23,total_revenue,149.97
+daily_revenue,2024-06-23,total_orders,1.0
+daily_revenue,2024-06-24,total_revenue,99.98
+daily_revenue,2024-06-24,total_orders,1.0
+daily_revenue,2024-06-25,total_revenue,59.6
+daily_revenue,2024-06-25,total_orders,1.0
+daily_revenue,2024-06-26,total_revenue,35.97
+daily_revenue,2024-06-26,total_orders,1.0
+daily_revenue,2024-06-27,total_revenue,68.0
+daily_revenue,2024-06-27,total_orders,1.0
+daily_revenue,2024-06-28,total_revenue,146.0
+daily_revenue,2024-06-28,total_orders,1.0
+daily_revenue,2024-06-29,total_revenue,649.99
+daily_revenue,2024-06-29,total_orders,1.0
+daily_revenue,2024-06-30,total_revenue,399.99
+daily_revenue,2024-06-30,total_orders,1.0
+daily_revenue,2024-07-01,total_revenue,179.97
+daily_revenue,2024-07-01,total_orders,1.0
+daily_revenue,2024-07-02,total_revenue,25.98
+daily_revenue,2024-07-02,total_orders,1.0
+daily_revenue,2024-07-03,total_revenue,190.0
+daily_revenue,2024-07-03,total_orders,1.0
+daily_revenue,2024-07-04,total_revenue,499.95
+daily_revenue,2024-07-04,total_orders,1.0
+daily_revenue,2024-07-05,total_revenue,399.0
+daily_revenue,2024-07-05,total_orders,1.0
+daily_revenue,2024-07-06,total_revenue,398.0
+daily_revenue,2024-07-06,total_orders,1.0
+daily_revenue,2024-07-07,total_revenue,139.96
+daily_revenue,2024-07-07,total_orders,1.0
+daily_revenue,2024-07-08,total_revenue,32.97
+daily_revenue,2024-07-08,total_orders,1.0
+daily_revenue,2024-07-09,total_revenue,18.0
+daily_revenue,2024-07-09,total_orders,1.0
+daily_revenue,2024-07-10,total_revenue,169.95
+daily_revenue,2024-07-10,total_orders,1.0
+daily_revenue,2024-07-11,total_revenue,199.99
+daily_revenue,2024-07-11,total_orders,1.0
+daily_revenue,2024-07-12,total_revenue,199.95
+daily_revenue,2024-07-12,total_orders,1.0
+daily_revenue,2024-07-13,total_revenue,359.98
+daily_revenue,2024-07-13,total_orders,1.0
+daily_revenue,2024-07-14,total_revenue,23.98
+daily_revenue,2024-07-14,total_orders,1.0
+daily_revenue,2024-07-15,total_revenue,125.0
+daily_revenue,2024-07-15,total_orders,1.0
+daily_revenue,2024-07-16,total_revenue,449.99
+daily_revenue,2024-07-16,total_orders,1.0
+daily_revenue,2024-07-17,total_revenue,358.0
+daily_revenue,2024-07-17,total_orders,1.0
+daily_revenue,2024-07-18,total_revenue,99.95
+daily_revenue,2024-07-18,total_orders,1.0
+daily_revenue,2024-07-19,total_revenue,179.97
+daily_revenue,2024-07-19,total_orders,1.0
+daily_revenue,2024-07-20,total_revenue,29.98
+daily_revenue,2024-07-20,total_orders,1.0
+daily_revenue,2024-07-21,total_revenue,52.0
+daily_revenue,2024-07-21,total_orders,1.0
+daily_revenue,2024-07-22,total_revenue,399.99
+daily_revenue,2024-07-22,total_orders,1.0
+daily_revenue,2024-07-23,total_revenue,299.99
+daily_revenue,2024-07-23,total_orders,1.0
+daily_revenue,2024-07-24,total_revenue,379.99
+daily_revenue,2024-07-24,total_orders,1.0
+daily_revenue,2024-07-25,total_revenue,196.0
+daily_revenue,2024-07-25,total_orders,1.0
+daily_revenue,2024-07-26,total_revenue,50.97
+daily_revenue,2024-07-26,total_orders,1.0
+daily_revenue,2024-07-27,total_revenue,79.0
+daily_revenue,2024-07-27,total_orders,1.0
+daily_revenue,2024-07-28,total_revenue,129.0
+daily_revenue,2024-07-28,total_orders,1.0
+daily_revenue,2024-07-29,total_revenue,749.99
+daily_revenue,2024-07-29,total_orders,1.0
+daily_revenue,2024-07-30,total_revenue,339.98
+daily_revenue,2024-07-30,total_orders,1.0
+daily_revenue,2024-07-31,total_revenue,39.6
+daily_revenue,2024-07-31,total_orders,1.0
+daily_revenue,2024-08-01,total_revenue,32.97
+daily_revenue,2024-08-01,total_orders,1.0
+daily_revenue,2024-08-02,total_revenue,58.0
+daily_revenue,2024-08-02,total_orders,1.0
+daily_revenue,2024-08-03,total_revenue,349.99
+daily_revenue,2024-08-03,total_orders,1.0
+daily_revenue,2024-08-04,total_revenue,2399.0
+daily_revenue,2024-08-04,total_orders,1.0
+daily_revenue,2024-08-05,total_revenue,449.99
+daily_revenue,2024-08-05,total_orders,1.0
+daily_revenue,2024-08-06,total_revenue,149.97
+daily_revenue,2024-08-06,total_orders,1.0
+daily_revenue,2024-08-07,total_revenue,25.98
+daily_revenue,2024-08-07,total_orders,1.0
+daily_revenue,2024-08-08,total_revenue,27.0
+daily_revenue,2024-08-08,total_orders,1.0
+daily_revenue,2024-08-09,total_revenue,599.99
+daily_revenue,2024-08-09,total_orders,1.0
+daily_revenue,2024-08-10,total_revenue,199.96
+daily_revenue,2024-08-10,total_orders,1.0
+daily_revenue,2024-08-11,total_revenue,459.98
+daily_revenue,2024-08-11,total_orders,1.0
+daily_revenue,2024-08-12,total_revenue,89.98
+daily_revenue,2024-08-12,total_orders,1.0
+daily_revenue,2024-08-13,total_revenue,80.97
+daily_revenue,2024-08-13,total_orders,1.0
+daily_revenue,2024-08-14,total_revenue,6.7
+daily_revenue,2024-08-14,total_orders,1.0
+daily_revenue,2024-08-15,total_revenue,299.9
+daily_revenue,2024-08-15,total_orders,1.0
+daily_revenue,2024-08-16,total_revenue,169.0
+daily_revenue,2024-08-16,total_orders,1.0
+daily_revenue,2024-08-17,total_revenue,599.0
+daily_revenue,2024-08-17,total_orders,1.0
+daily_revenue,2024-08-18,total_revenue,259.96
+daily_revenue,2024-08-18,total_orders,1.0
+daily_revenue,2024-08-19,total_revenue,19.98
+daily_revenue,2024-08-19,total_orders,1.0
+daily_revenue,2024-08-20,total_revenue,24.0
+daily_revenue,2024-08-20,total_orders,1.0
+daily_revenue,2024-08-21,total_revenue,98.85
+daily_revenue,2024-08-21,total_orders,1.0
+daily_revenue,2024-08-22,total_revenue,299.0
+daily_revenue,2024-08-22,total_orders,1.0
+daily_revenue,2024-08-23,total_revenue,159.99
+daily_revenue,2024-08-23,total_orders,1.0
+daily_revenue,2024-08-24,total_revenue,270.0
+daily_revenue,2024-08-24,total_orders,1.0
+daily_revenue,2024-08-25,total_revenue,32.97
+daily_revenue,2024-08-25,total_orders,1.0
+daily_revenue,2024-08-26,total_revenue,55.0
+daily_revenue,2024-08-26,total_orders,1.0
+daily_revenue,2024-08-27,total_revenue,59.98
+daily_revenue,2024-08-27,total_orders,1.0
+daily_revenue,2026-06-01,total_revenue,66.0
+daily_revenue,2026-06-01,total_orders,2.0
+daily_revenue,2026-06-02,total_revenue,66.0
+daily_revenue,2026-06-02,total_orders,2.0
+daily_revenue,2026-06-03,total_revenue,235.0
+daily_revenue,2026-06-03,total_orders,2.0
+daily_revenue,2026-06-04,total_revenue,184.0
+daily_revenue,2026-06-04,total_orders,2.0
+daily_revenue,2026-06-05,total_revenue,95.0
+daily_revenue,2026-06-05,total_orders,2.0
+daily_revenue,2026-06-14,total_revenue,2.0
+daily_revenue,2026-06-14,total_orders,2.0
+revenue_by_category,Electronics,total_revenue,35258.41
+revenue_by_category,Electronics,total_orders,44.0
+revenue_by_category,Home Appliances,total_revenue,18646.16
+revenue_by_category,Home Appliances,total_orders,40.0
+revenue_by_category,Sports,total_revenue,14326.52
+revenue_by_category,Sports,total_orders,40.0
+revenue_by_category,Clothing,total_revenue,8128.93
+revenue_by_category,Clothing,total_orders,40.0
+revenue_by_category,Beauty Products,total_revenue,2621.9
+revenue_by_category,Beauty Products,total_orders,40.0
+revenue_by_category,Books,total_revenue,1861.93
+revenue_by_category,Books,total_orders,40.0
+revenue_by_category,Home,total_revenue,180.0
+revenue_by_category,Home,total_orders,2.0
+revenue_by_category,Fashion,total_revenue,156.0
+revenue_by_category,Fashion,total_orders,3.0
+revenue_by_category,Beauty,total_revenue,34.0
+revenue_by_category,Beauty,total_orders,1.0
+revenue_by_category,Documentation,total_revenue,2.0
+revenue_by_category,Documentation,total_orders,2.0
+order_status_summary,Completed,total_orders,203.0
+order_status_summary,Completed,total_revenue,68241.75
+order_status_summary,Pending,total_orders,35.0
+order_status_summary,Pending,total_revenue,11083.31
+order_status_summary,Cancelled,total_orders,14.0
+order_status_summary,Cancelled,total_revenue,1890.79
+top_products,Canon EOS R5 Camera,total_revenue,3899.99
+top_products,Canon EOS R5 Camera,total_quantity,1.0
+top_products,LG OLED TV,total_revenue,2599.98
+top_products,LG OLED TV,total_quantity,2.0
+top_products,MacBook Pro 16-inch,total_revenue,2499.99
+top_products,MacBook Pro 16-inch,total_quantity,1.0
+top_products,Apple MacBook Pro 16-inch,total_revenue,2399.0
+top_products,Apple MacBook Pro 16-inch,total_quantity,1.0
+top_products,iPhone 14 Pro,total_revenue,1999.98
+top_products,iPhone 14 Pro,total_quantity,2.0
+top_products,Peloton Bike,total_revenue,1895.0
+top_products,Peloton Bike,total_quantity,1.0
+top_products,HP Spectre x360 Laptop,total_revenue,1599.99
+top_products,HP Spectre x360 Laptop,total_quantity,1.0
+top_products,Roomba i7+,total_revenue,1599.98
+top_products,Roomba i7+,total_quantity,2.0
+top_products,Garmin Forerunner 945,total_revenue,1599.97
+top_products,Garmin Forerunner 945,total_quantity,3.0
+top_products,Samsung Odyssey G9 Gaming Monitor,total_revenue,1499.99
+top_products,Samsung Odyssey G9 Gaming Monitor,total_quantity,1.0
+top_products,Samsung Galaxy Tab S8,total_revenue,1499.98
+top_products,Samsung Galaxy Tab S8,total_quantity,2.0
+top_products,Microsoft Surface Laptop 4,total_revenue,1299.99
+top_products,Microsoft Surface Laptop 4,total_quantity,1.0
+top_products,Apple MacBook Air,total_revenue,1199.99
+top_products,Apple MacBook Air,total_quantity,1.0
+top_products,Samsung QLED 4K TV,total_revenue,1199.99
+top_products,Samsung QLED 4K TV,total_quantity,1.0
+top_products,Blueair Classic 480i,total_revenue,1199.98
+top_products,Blueair Classic 480i,total_quantity,2.0
+top_products,Apple iPad Air,total_revenue,1199.98
+top_products,Apple iPad Air,total_quantity,2.0
+top_products,Apple Watch Series 8,total_revenue,1199.97
+top_products,Apple Watch Series 8,total_quantity,3.0
+top_products,Dyson Supersonic Hair Dryer,total_revenue,1199.97
+top_products,Dyson Supersonic Hair Dryer,total_quantity,3.0
+top_products,GoPro HERO10 Black,total_revenue,1199.97
+top_products,GoPro HERO10 Black,total_quantity,3.0
+top_products,Sony WH-1000XM4 Headphones,total_revenue,1049.97
+top_products,Sony WH-1000XM4 Headphones,total_quantity,3.0
+top_products,Garmin Fenix 6X Pro,total_revenue,999.99
+top_products,Garmin Fenix 6X Pro,total_quantity,1.0
+top_products,Google Pixel 6 Pro,total_revenue,899.99
+top_products,Google Pixel 6 Pro,total_quantity,1.0
+top_products,De'Longhi Magnifica Espresso Machine,total_revenue,899.99
+top_products,De'Longhi Magnifica Espresso Machine,total_quantity,1.0
+top_products,Bose SoundLink Revolve+ Speaker,total_revenue,899.97
+top_products,Bose SoundLink Revolve+ Speaker,total_quantity,3.0
+top_products,Nintendo Switch,total_revenue,899.97
+top_products,Nintendo Switch,total_quantity,3.0
+top_products,Canon EOS Rebel T7i DSLR Camera,total_revenue,749.99
+top_products,Canon EOS Rebel T7i DSLR Camera,total_quantity,1.0
+top_products,Samsung Odyssey G7 Gaming Monitor,total_revenue,699.99
+top_products,Samsung Odyssey G7 Gaming Monitor,total_quantity,1.0
+top_products,Bowflex SelectTech 1090 Adjustable Dumbbells,total_revenue,699.99
+top_products,Bowflex SelectTech 1090 Adjustable Dumbbells,total_quantity,1.0
+top_products,Shark IQ Robot Vacuum,total_revenue,699.98
+top_products,Shark IQ Robot Vacuum,total_quantity,2.0
+top_products,Fitbit Versa 3,total_revenue,689.85
+top_products,Fitbit Versa 3,total_quantity,3.0
+top_products,Eufy RoboVac 11S,total_revenue,659.97
+top_products,Eufy RoboVac 11S,total_quantity,3.0
+top_products,Google Pixelbook Go,total_revenue,649.99
+top_products,Google Pixelbook Go,total_quantity,1.0
+top_products,Garmin Edge 530,total_revenue,599.98
+top_products,Garmin Edge 530,total_quantity,2.0
+top_products,Babolat Pure Drive Tennis Racket,total_revenue,599.97
+top_products,Babolat Pure Drive Tennis Racket,total_quantity,3.0
+top_products,Breville Smart Grill,total_revenue,599.9
+top_products,Breville Smart Grill,total_quantity,2.0
+top_products,Anova Precision Oven,total_revenue,599.0
+top_products,Anova Precision Oven,total_quantity,1.0
+top_products,Apple AirPods Max,total_revenue,549.0
+top_products,Apple AirPods Max,total_quantity,1.0
+top_products,Nike Air Force 1,total_revenue,539.94
+top_products,Nike Air Force 1,total_quantity,6.0
+top_products,Keurig K-Elite Coffee Maker,total_revenue,529.97
+top_products,Keurig K-Elite Coffee Maker,total_quantity,3.0
+top_products,Dyson Pure Cool Link,total_revenue,499.99
+top_products,Dyson Pure Cool Link,total_quantity,1.0
+top_products,KitchenAid Artisan Stand Mixer,total_revenue,499.99
+top_products,KitchenAid Artisan Stand Mixer,total_quantity,1.0
+top_products,Sony PlayStation 5,total_revenue,499.99
+top_products,Sony PlayStation 5,total_quantity,1.0
+top_products,Dyson V11 Vacuum,total_revenue,499.99
+top_products,Dyson V11 Vacuum,total_quantity,1.0
+top_products,Apple AirPods Pro,total_revenue,499.98
+top_products,Apple AirPods Pro,total_quantity,2.0
+top_products,North Face Down Jacket,total_revenue,499.98
+top_products,North Face Down Jacket,total_quantity,2.0
+top_products,Polar Vantage V2,total_revenue,499.95
+top_products,Polar Vantage V2,total_quantity,1.0
+top_products,Breville Nespresso Creatista Plus,total_revenue,499.95
+top_products,Breville Nespresso Creatista Plus,total_quantity,1.0
+top_products,Manduka PRO Yoga Mat,total_revenue,479.96
+top_products,Manduka PRO Yoga Mat,total_quantity,4.0
+top_products,Ray-Ban Aviator Sunglasses,total_revenue,464.97
+top_products,Ray-Ban Aviator Sunglasses,total_quantity,3.0
+top_products,Google Nest Hub Max,total_revenue,459.98
+top_products,Google Nest Hub Max,total_quantity,2.0
+top_products,Philips Sonicare DiamondClean Toothbrush,total_revenue,459.98
+top_products,Philips Sonicare DiamondClean Toothbrush,total_quantity,2.0
+top_products,iRobot Braava Jet M6,total_revenue,449.99
+top_products,iRobot Braava Jet M6,total_quantity,1.0
+top_products,GoPro HERO9 Black,total_revenue,449.99
+top_products,GoPro HERO9 Black,total_quantity,1.0
+top_products,Yeti Tundra Haul Portable Wheeled Cooler,total_revenue,399.99
+top_products,Yeti Tundra Haul Portable Wheeled Cooler,total_quantity,1.0
+top_products,Dyson V8 Absolute,total_revenue,399.99
+top_products,Dyson V8 Absolute,total_quantity,1.0
+top_products,Bowflex SelectTech 552 Dumbbells,total_revenue,399.99
+top_products,Bowflex SelectTech 552 Dumbbells,total_quantity,1.0
+top_products,Philips Airfryer XXL,total_revenue,399.98
+top_products,Philips Airfryer XXL,total_quantity,2.0
+top_products,Ninja Foodi Pressure Cooker,total_revenue,399.98
+top_products,Ninja Foodi Pressure Cooker,total_quantity,2.0
+top_products,Cuisinart Coffee Center,total_revenue,399.9
+top_products,Cuisinart Coffee Center,total_quantity,2.0
+top_products,Sonos Beam Soundbar,total_revenue,399.0
+top_products,Sonos Beam Soundbar,total_quantity,1.0
+top_products,Anova Precision Cooker,total_revenue,398.0
+top_products,Anova Precision Cooker,total_quantity,2.0
+top_products,Nike Metcon 6,total_revenue,389.97
+top_products,Nike Metcon 6,total_quantity,3.0
+top_products,KitchenAid Stand Mixer,total_revenue,379.99
+top_products,KitchenAid Stand Mixer,total_quantity,1.0
+top_products,Adidas Ultraboost Shoes,total_revenue,359.98
+top_products,Adidas Ultraboost Shoes,total_quantity,2.0
+top_products,Adidas Ultraboost Running Shoes,total_revenue,359.98
+top_products,Adidas Ultraboost Running Shoes,total_quantity,2.0
+top_products,Apple TV 4K,total_revenue,358.0
+top_products,Apple TV 4K,total_quantity,2.0
+top_products,Vitamix Explorian Blender,total_revenue,349.99
+top_products,Vitamix Explorian Blender,total_quantity,1.0
+top_products,YETI Tundra 65 Cooler,total_revenue,349.99
+top_products,YETI Tundra 65 Cooler,total_quantity,1.0
+top_products,Hyperice Hypervolt Massager,total_revenue,349.0
+top_products,Hyperice Hypervolt Massager,total_quantity,1.0
+top_products,Adidas Originals Superstar Sneakers,total_revenue,319.96
+top_products,Adidas Originals Superstar Sneakers,total_quantity,4.0
+top_products,YETI Tundra 45 Cooler,total_revenue,299.99
+top_products,YETI Tundra 45 Cooler,total_quantity,1.0
+top_products,Samsung Galaxy Watch 4,total_revenue,299.99
+top_products,Samsung Galaxy Watch 4,total_quantity,1.0
+top_products,Bose QuietComfort 35 Headphones,total_revenue,299.99
+top_products,Bose QuietComfort 35 Headphones,total_quantity,1.0
+top_products,Garmin Forerunner 245,total_revenue,299.99
+top_products,Garmin Forerunner 245,total_quantity,1.0
+top_products,Breville Smart Oven,total_revenue,299.99
+top_products,Breville Smart Oven,total_quantity,1.0
+top_products,Bose SoundSport Wireless Earbuds,total_revenue,299.98
+top_products,Bose SoundSport Wireless Earbuds,total_quantity,2.0
+top_products,Fitbit Luxe,total_revenue,299.9
+top_products,Fitbit Luxe,total_quantity,2.0
+top_products,Bose QuietComfort 35 II Wireless Headphones,total_revenue,299.0
+top_products,Bose QuietComfort 35 II Wireless Headphones,total_quantity,1.0
+top_products,Lululemon Align Leggings,total_revenue,294.0
+top_products,Lululemon Align Leggings,total_quantity,3.0
+top_products,Patagonia Better Sweater,total_revenue,279.98
+top_products,Patagonia Better Sweater,total_quantity,2.0
+top_products,Instant Pot Duo Evo Plus,total_revenue,279.98
+top_products,Instant Pot Duo Evo Plus,total_quantity,2.0
+top_products,Nike Air Force 1 Sneakers,total_revenue,270.0
+top_products,Nike Air Force 1 Sneakers,total_quantity,3.0
+top_products,Instant Pot Duo,total_revenue,269.97
+top_products,Instant Pot Duo,total_quantity,3.0
+top_products,Kindle Paperwhite,total_revenue,259.98
+top_products,Kindle Paperwhite,total_quantity,2.0
+top_products,On Running Cloud Shoes,total_revenue,259.98
+top_products,On Running Cloud Shoes,total_quantity,2.0
+top_products,Nike Air Zoom Pegasus 37,total_revenue,259.98
+top_products,Nike Air Zoom Pegasus 37,total_quantity,2.0
+top_products,Fitbit Charge 5,total_revenue,259.98
+top_products,Fitbit Charge 5,total_quantity,2.0
+top_products,Adidas Originals Trefoil Hoodie,total_revenue,259.96
+top_products,Adidas Originals Trefoil Hoodie,total_quantity,4.0
+top_products,YETI Hopper Flip Portable Cooler,total_revenue,249.99
+top_products,YETI Hopper Flip Portable Cooler,total_quantity,1.0
+top_products,Amazon Echo Show 10,total_revenue,249.99
+top_products,Amazon Echo Show 10,total_quantity,1.0
+top_products,Titleist Pro V1 Golf Balls,total_revenue,249.95
+top_products,Titleist Pro V1 Golf Balls,total_quantity,5.0
+top_products,Tommy Hilfiger Polo Shirt,total_revenue,249.95
+top_products,Tommy Hilfiger Polo Shirt,total_quantity,5.0
+top_products,Uniqlo Ultra Light Down Jacket,total_revenue,239.97
+top_products,Uniqlo Ultra Light Down Jacket,total_quantity,3.0
+top_products,Puma Suede Classic Sneakers,total_revenue,239.96
+top_products,Puma Suede Classic Sneakers,total_quantity,4.0
+top_products,Columbia Fleece Jacket,total_revenue,239.96
+top_products,Columbia Fleece Jacket,total_quantity,4.0
+top_products,Anker PowerCore Portable Charger,total_revenue,239.96
+top_products,Anker PowerCore Portable Charger,total_quantity,4.0
+top_products,Yeti Rambler Tumbler,total_revenue,239.94
+top_products,Yeti Rambler Tumbler,total_quantity,6.0
+top_products,Under Armour HOVR Sonic 4 Shoes,total_revenue,219.98
+top_products,Under Armour HOVR Sonic 4 Shoes,total_quantity,2.0
+top_products,Rogue Fitness Kettlebell,total_revenue,209.97
+top_products,Rogue Fitness Kettlebell,total_quantity,3.0
+top_products,Levi's 501 Jeans,total_revenue,209.97
+top_products,Levi's 501 Jeans,total_quantity,3.0
+top_products,Nespresso VertuoPlus,total_revenue,199.99
+top_products,Nespresso VertuoPlus,total_quantity,1.0
+top_products,Cuisinart Custom 14-Cup Food Processor,total_revenue,199.99
+top_products,Cuisinart Custom 14-Cup Food Processor,total_quantity,1.0
+top_products,Logitech G Pro X Wireless Gaming Headset,total_revenue,199.99
+top_products,Logitech G Pro X Wireless Gaming Headset,total_quantity,1.0
+top_products,Yeti Roadie 24 Cooler,total_revenue,199.99
+top_products,Yeti Roadie 24 Cooler,total_quantity,1.0
+top_products,Logitech MX Master 3 Mouse,total_revenue,199.98
+top_products,Logitech MX Master 3 Mouse,total_quantity,2.0
+top_products,Amazon Echo Dot (4th Gen),total_revenue,199.96
+top_products,Amazon Echo Dot (4th Gen),total_quantity,4.0
+top_products,Breville Smart Coffee Grinder Pro,total_revenue,199.95
+top_products,Breville Smart Coffee Grinder Pro,total_quantity,1.0
+top_products,Fitbit Inspire 2,total_revenue,199.9
+top_products,Fitbit Inspire 2,total_quantity,2.0
+top_products,Levi's Sherpa Trucker Jacket,total_revenue,196.0
+top_products,Levi's Sherpa Trucker Jacket,total_quantity,2.0
+top_products,Lululemon Wunder Under High-Rise Leggings,total_revenue,196.0
+top_products,Lululemon Wunder Under High-Rise Leggings,total_quantity,2.0
+top_products,La Mer Crème de la Mer Moisturizer,total_revenue,190.0
+top_products,La Mer Crème de la Mer Moisturizer,total_quantity,1.0
+top_products,Monitor,total_revenue,180.0
+top_products,Monitor,total_quantity,1.0
+top_products,Instant Pot Duo Crisp,total_revenue,179.99
+top_products,Instant Pot Duo Crisp,total_quantity,1.0
+top_products,Panasonic NN-SN966S Microwave,total_revenue,179.99
+top_products,Panasonic NN-SN966S Microwave,total_quantity,1.0
+top_products,Levi's Trucker Jacket,total_revenue,179.98
+top_products,Levi's Trucker Jacket,total_quantity,2.0
+top_products,Levi's 511 Slim Fit Jeans,total_revenue,179.97
+top_products,Levi's 511 Slim Fit Jeans,total_quantity,3.0
+top_products,Gap 1969 Original Fit Jeans,total_revenue,179.97
+top_products,Gap 1969 Original Fit Jeans,total_quantity,3.0
+top_products,Zara Summer Dress,total_revenue,179.97
+top_products,Zara Summer Dress,total_quantity,3.0
+top_products,TRX All-in-One Suspension Training System,total_revenue,169.95
+top_products,TRX All-in-One Suspension Training System,total_quantity,1.0
+top_products,Google Nest Wifi Router,total_revenue,169.0
+top_products,Google Nest Wifi Router,total_quantity,1.0
+top_products,Nike Sportswear Club Fleece Hoodie,total_revenue,164.97
+top_products,Nike Sportswear Club Fleece Hoodie,total_quantity,3.0
+top_products,Nespresso Vertuo Next Coffee and Espresso Maker,total_revenue,159.99
+top_products,Nespresso Vertuo Next Coffee and Espresso Maker,total_quantity,1.0
+top_products,Cuisinart Griddler Deluxe,total_revenue,159.99
+top_products,Cuisinart Griddler Deluxe,total_quantity,1.0
+top_products,Keurig K-Mini Coffee Maker,total_revenue,159.98
+top_products,Keurig K-Mini Coffee Maker,total_quantity,2.0
+top_products,Hydro Flask Wide Mouth Water Bottle,total_revenue,159.8
+top_products,Hydro Flask Wide Mouth Water Bottle,total_quantity,4.0
+top_products,Office Chair,total_revenue,150.0
+top_products,Office Chair,total_quantity,2.0
+top_products,Gap High Rise Skinny Jeans,total_revenue,149.97
+top_products,Gap High Rise Skinny Jeans,total_quantity,3.0
+top_products,Yeti Rambler Bottle,total_revenue,149.97
+top_products,Yeti Rambler Bottle,total_quantity,3.0
+top_products,Amazon Fire TV Stick 4K,total_revenue,149.97
+top_products,Amazon Fire TV Stick 4K,total_quantity,3.0
+top_products,Champion Reverse Weave Hoodie,total_revenue,149.97
+top_products,Champion Reverse Weave Hoodie,total_quantity,3.0
+top_products,Calvin Klein Boxer Briefs,total_revenue,149.95
+top_products,Calvin Klein Boxer Briefs,total_quantity,5.0
+top_products,Wilson Evolution Basketball,total_revenue,149.95
+top_products,Wilson Evolution Basketball,total_quantity,5.0
+top_products,Under Armour HeatGear T-Shirt,total_revenue,149.95
+top_products,Under Armour HeatGear T-Shirt,total_quantity,5.0
+top_products,Adidas 3-Stripes Shorts,total_revenue,149.95
+top_products,Adidas 3-Stripes Shorts,total_quantity,5.0
+top_products,Spalding NBA Street Basketball,total_revenue,149.94
+top_products,Spalding NBA Street Basketball,total_quantity,6.0
+top_products,Oakley Holbrook Sunglasses,total_revenue,146.0
+top_products,Oakley Holbrook Sunglasses,total_quantity,1.0
+top_products,Instant Pot Ultra,total_revenue,139.99
+top_products,Instant Pot Ultra,total_quantity,1.0
+top_products,Nike Dri-FIT Training Shorts,total_revenue,139.96
+top_products,Nike Dri-FIT Training Shorts,total_quantity,4.0
+top_products,Gap Crewneck Sweatshirt,total_revenue,139.96
+top_products,Gap Crewneck Sweatshirt,total_quantity,4.0
+top_products,Adidas Essential Track Pants,total_revenue,134.97
+top_products,Adidas Essential Track Pants,total_quantity,3.0
+top_products,The Silent Patient by Alex Michaelides,total_revenue,134.95
+top_products,The Silent Patient by Alex Michaelides,total_quantity,5.0
+top_products,Becoming by Michelle Obama,total_revenue,130.0
+top_products,Becoming by Michelle Obama,total_quantity,4.0
+top_products,Chanel No. 5 Perfume,total_revenue,129.99
+top_products,Chanel No. 5 Perfume,total_quantity,1.0
+top_products,Bose SoundLink Color Bluetooth Speaker II,total_revenue,129.0
+top_products,Bose SoundLink Color Bluetooth Speaker II,total_quantity,1.0
+top_products,Tom Ford Black Orchid Perfume,total_revenue,125.0
+top_products,Tom Ford Black Orchid Perfume,total_quantity,1.0
+top_products,H&M Slim Fit Jeans,total_revenue,119.97
+top_products,H&M Slim Fit Jeans,total_quantity,3.0
+top_products,Gap Essential Crewneck T-Shirt,total_revenue,119.94
+top_products,Gap Essential Crewneck T-Shirt,total_quantity,6.0
+top_products,"Salt, Fat, Acid, Heat by Samin Nosrat",total_revenue,107.97
+top_products,"Salt, Fat, Acid, Heat by Samin Nosrat",total_quantity,3.0
+top_products,Sunday Riley Good Genes,total_revenue,105.0
+top_products,Sunday Riley Good Genes,total_quantity,1.0
+top_products,Estee Lauder Advanced Night Repair,total_revenue,105.0
+top_products,Estee Lauder Advanced Night Repair,total_quantity,1.0
+top_products,Nike Tempo Running Shorts,total_revenue,104.97
+top_products,Nike Tempo Running Shorts,total_quantity,3.0
+top_products,Lancome La Vie Est Belle,total_revenue,102.0
+top_products,Lancome La Vie Est Belle,total_quantity,1.0
+top_products,Charlotte Tilbury Magic Cream,total_revenue,100.0
+top_products,Charlotte Tilbury Magic Cream,total_quantity,1.0
+top_products,Ninja Professional Blender,total_revenue,99.99
+top_products,Ninja Professional Blender,total_quantity,1.0
+top_products,Ring Video Doorbell,total_revenue,99.99
+top_products,Ring Video Doorbell,total_quantity,1.0
+top_products,Crock-Pot 6-Quart Slow Cooker,total_revenue,99.98
+top_products,Crock-Pot 6-Quart Slow Cooker,total_quantity,2.0
+top_products,Under Armour Tech 2.0 T-Shirt,total_revenue,99.96
+top_products,Under Armour Tech 2.0 T-Shirt,total_quantity,4.0
+top_products,Instant Pot Duo Nova,total_revenue,99.95
+top_products,Instant Pot Duo Nova,total_quantity,1.0
+top_products,Hanes ComfortSoft T-Shirt,total_revenue,99.9
+top_products,Hanes ComfortSoft T-Shirt,total_quantity,10.0
+top_products,Hydro Flask Standard Mouth Water Bottle,total_revenue,98.85
+top_products,Hydro Flask Standard Mouth Water Bottle,total_quantity,3.0
+top_products,Hamilton Beach FlexBrew Coffee Maker,total_revenue,89.99
+top_products,Hamilton Beach FlexBrew Coffee Maker,total_quantity,1.0
+top_products,Neutrogena Skincare Set,total_revenue,89.99
+top_products,Neutrogena Skincare Set,total_quantity,1.0
+top_products,Old Navy Mid-Rise Rockstar Super Skinny Jeans,total_revenue,89.98
+top_products,Old Navy Mid-Rise Rockstar Super Skinny Jeans,total_quantity,2.0
+top_products,Adidas FIFA World Cup Football,total_revenue,89.97
+top_products,Adidas FIFA World Cup Football,total_quantity,3.0
+top_products,The Catcher in the Rye by J.D. Salinger,total_revenue,88.93
+top_products,The Catcher in the Rye by J.D. Salinger,total_quantity,7.0
+top_products,Educated by Tara Westover,total_revenue,84.0
+top_products,Educated by Tara Westover,total_quantity,3.0
+top_products,Kiehl's Midnight Recovery Concentrate,total_revenue,82.0
+top_products,Kiehl's Midnight Recovery Concentrate,total_quantity,1.0
+top_products,L'Oreal Revitalift Serum,total_revenue,79.98
+top_products,L'Oreal Revitalift Serum,total_quantity,2.0
+top_products,1984 by George Orwell,total_revenue,79.96
+top_products,1984 by George Orwell,total_quantity,4.0
+top_products,Caudalie Vinoperfect Radiance Serum,total_revenue,79.0
+top_products,Caudalie Vinoperfect Radiance Serum,total_quantity,1.0
+top_products,Drunk Elephant C-Firma Day Serum,total_revenue,78.0
+top_products,Drunk Elephant C-Firma Day Serum,total_quantity,1.0
+top_products,Where the Crawdads Sing by Delia Owens,total_revenue,75.96
+top_products,Where the Crawdads Sing by Delia Owens,total_quantity,4.0
+top_products,Harry Potter and the Sorcerer's Stone,total_revenue,74.97
+top_products,Harry Potter and the Sorcerer's Stone,total_quantity,3.0
+top_products,Dune by Frank Herbert,total_revenue,71.96
+top_products,Dune by Frank Herbert,total_quantity,4.0
+top_products,TriggerPoint GRID Foam Roller,total_revenue,69.98
+top_products,TriggerPoint GRID Foam Roller,total_quantity,2.0
+top_products,Tatcha The Water Cream,total_revenue,68.0
+top_products,Tatcha The Water Cream,total_quantity,1.0
+top_products,First Aid Beauty Ultra Repair Cream,total_revenue,68.0
+top_products,First Aid Beauty Ultra Repair Cream,total_quantity,2.0
+top_products,Atomic Habits by James Clear,total_revenue,67.96
+top_products,Atomic Habits by James Clear,total_quantity,4.0
+top_products,Jacket,total_revenue,65.0
+top_products,Jacket,total_quantity,1.0
+top_products,Forever 21 Graphic Tee,total_revenue,64.95
+top_products,Forever 21 Graphic Tee,total_quantity,5.0
+top_products,The Da Vinci Code,total_revenue,63.96
+top_products,The Da Vinci Code,total_quantity,4.0
+top_products,Yeti Rambler 20 oz Tumbler,total_revenue,59.98
+top_products,Yeti Rambler 20 oz Tumbler,total_quantity,2.0
+top_products,Old Navy Relaxed-Fit T-Shirt,total_revenue,59.96
+top_products,Old Navy Relaxed-Fit T-Shirt,total_quantity,4.0
+top_products,To Kill a Mockingbird by Harper Lee,total_revenue,59.96
+top_products,To Kill a Mockingbird by Harper Lee,total_quantity,4.0
+top_products,Uniqlo Airism Mesh Boxer Briefs,total_revenue,59.6
+top_products,Uniqlo Airism Mesh Boxer Briefs,total_quantity,4.0
+top_products,GlamGlow Supermud Clearing Treatment,total_revenue,59.0
+top_products,GlamGlow Supermud Clearing Treatment,total_quantity,1.0
+top_products,L'Occitane Shea Butter Hand Cream,total_revenue,58.0
+top_products,L'Occitane Shea Butter Hand Cream,total_quantity,2.0
+top_products,Sunday Riley Luna Sleeping Night Oil,total_revenue,55.0
+top_products,Sunday Riley Luna Sleeping Night Oil,total_quantity,1.0
+top_products,Sneakers,total_revenue,55.0
+top_products,Sneakers,total_quantity,1.0
+top_products,The Girl with the Dragon Tattoo by Stieg Larsson,total_revenue,52.95
+top_products,The Girl with the Dragon Tattoo by Stieg Larsson,total_quantity,5.0
+top_products,Dr. Jart+ Cicapair Tiger Grass Color Correcting Treatment,total_revenue,52.0
+top_products,Dr. Jart+ Cicapair Tiger Grass Color Correcting Treatment,total_quantity,1.0
+top_products,Clinique Moisture Surge,total_revenue,52.0
+top_products,Clinique Moisture Surge,total_quantity,1.0
+top_products,Keyboard,total_revenue,51.0
+top_products,Keyboard,total_quantity,2.0
+top_products,The Great Alone by Kristin Hannah,total_revenue,50.97
+top_products,The Great Alone by Kristin Hannah,total_quantity,3.0
+top_products,Olay Regenerist Face Cream,total_revenue,49.99
+top_products,Olay Regenerist Face Cream,total_quantity,1.0
+top_products,Shiseido Ultimate Sun Protector,total_revenue,49.0
+top_products,Shiseido Ultimate Sun Protector,total_quantity,1.0
+top_products,Anastasia Beverly Hills Brow Wiz,total_revenue,46.0
+top_products,Anastasia Beverly Hills Brow Wiz,total_quantity,2.0
+top_products,Gone Girl by Gillian Flynn,total_revenue,45.98
+top_products,Gone Girl by Gillian Flynn,total_quantity,2.0
+top_products,The Subtle Art of Not Giving a F*ck by Mark Manson,total_revenue,44.97
+top_products,The Subtle Art of Not Giving a F*ck by Mark Manson,total_quantity,3.0
+top_products,The Alchemist by Paulo Coelho,total_revenue,44.97
+top_products,The Alchemist by Paulo Coelho,total_quantity,3.0
+top_products,The Girl on the Train by Paula Hawkins,total_revenue,43.96
+top_products,The Girl on the Train by Paula Hawkins,total_quantity,4.0
+top_products,Uniqlo Airism Seamless Boxer Briefs,total_revenue,39.6
+top_products,Uniqlo Airism Seamless Boxer Briefs,total_quantity,4.0
+top_products,Pride and Prejudice by Jane Austen,total_revenue,38.97
+top_products,Pride and Prejudice by Jane Austen,total_quantity,3.0
+top_products,The Hobbit by J.R.R. Tolkien,total_revenue,38.97
+top_products,The Hobbit by J.R.R. Tolkien,total_quantity,3.0
+top_products,Sapiens: A Brief History of Humankind by Yuval Noah Harari,total_revenue,37.98
+top_products,Sapiens: A Brief History of Humankind by Yuval Noah Harari,total_quantity,2.0
+top_products,Fenty Beauty Killawatt Highlighter,total_revenue,36.0
+top_products,Fenty Beauty Killawatt Highlighter,total_quantity,1.0
+top_products,T-Shirt,total_revenue,36.0
+top_products,T-Shirt,total_quantity,3.0
+top_products,Youth to the People Superfood Antioxidant Cleanser,total_revenue,36.0
+top_products,Youth to the People Superfood Antioxidant Cleanser,total_quantity,1.0
+top_products,The Sun Also Rises by Ernest Hemingway,total_revenue,35.97
+top_products,The Sun Also Rises by Ernest Hemingway,total_quantity,3.0
+top_products,The Hunger Games by Suzanne Collins,total_revenue,35.96
+top_products,The Hunger Games by Suzanne Collins,total_quantity,4.0
+top_products,Face Wash,total_revenue,34.0
+top_products,Face Wash,total_quantity,4.0
+top_products,The Night Circus by Erin Morgenstern,total_revenue,33.98
+top_products,The Night Circus by Erin Morgenstern,total_quantity,2.0
+top_products,The Outsiders by S.E. Hinton,total_revenue,32.97
+top_products,The Outsiders by S.E. Hinton,total_quantity,3.0
+top_products,The Handmaid's Tale by Margaret Atwood,total_revenue,32.97
+top_products,The Handmaid's Tale by Margaret Atwood,total_quantity,3.0
+top_products,Glossier Boy Brow,total_revenue,32.0
+top_products,Glossier Boy Brow,total_quantity,2.0
+top_products,Desk Lamp,total_revenue,30.0
+top_products,Desk Lamp,total_quantity,1.0
+top_products,NARS Radiant Creamy Concealer,total_revenue,30.0
+top_products,NARS Radiant Creamy Concealer,total_quantity,1.0
+top_products,USB-C Cable,total_revenue,30.0
+top_products,USB-C Cable,total_quantity,5.0
+top_products,MAC Ruby Woo Lipstick,total_revenue,29.99
+top_products,MAC Ruby Woo Lipstick,total_quantity,1.0
+top_products,CeraVe Hydrating Facial Cleanser,total_revenue,29.98
+top_products,CeraVe Hydrating Facial Cleanser,total_quantity,2.0
+top_products,The Goldfinch by Donna Tartt,total_revenue,29.98
+top_products,The Goldfinch by Donna Tartt,total_quantity,2.0
+top_products,Think and Grow Rich by Napoleon Hill,total_revenue,29.97
+top_products,Think and Grow Rich by Napoleon Hill,total_quantity,3.0
+top_products,Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant,total_revenue,29.5
+top_products,Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant,total_quantity,1.0
+top_products,Clinique Dramatically Different Moisturizing Lotion,total_revenue,29.5
+top_products,Clinique Dramatically Different Moisturizing Lotion,total_quantity,1.0
+top_products,Tarte Shape Tape Concealer,total_revenue,27.0
+top_products,Tarte Shape Tape Concealer,total_quantity,1.0
+top_products,The Martian by Andy Weir,total_revenue,25.98
+top_products,The Martian by Andy Weir,total_quantity,2.0
+top_products,The Nightingale by Kristin Hannah,total_revenue,25.98
+top_products,The Nightingale by Kristin Hannah,total_quantity,2.0
+top_products,The Power of Now by Eckhart Tolle,total_revenue,25.98
+top_products,The Power of Now by Eckhart Tolle,total_quantity,2.0
+top_products,Laneige Water Sleeping Mask,total_revenue,25.0
+top_products,Laneige Water Sleeping Mask,total_quantity,1.0
+top_products,Fresh Sugar Lip Treatment,total_revenue,24.0
+top_products,Fresh Sugar Lip Treatment,total_quantity,1.0
+top_products,The Power of Habit by Charles Duhigg,total_revenue,23.98
+top_products,The Power of Habit by Charles Duhigg,total_quantity,2.0
+top_products,The Road by Cormac McCarthy,total_revenue,23.98
+top_products,The Road by Cormac McCarthy,total_quantity,2.0
+top_products,The Art of War by Sun Tzu,total_revenue,23.97
+top_products,The Art of War by Sun Tzu,total_quantity,3.0
+top_products,The Great Gatsby by F. Scott Fitzgerald,total_revenue,21.98
+top_products,The Great Gatsby by F. Scott Fitzgerald,total_quantity,2.0
+top_products,Glossier Cloud Paint,total_revenue,18.0
+top_products,Glossier Cloud Paint,total_quantity,1.0
+top_products,The Four Agreements by Don Miguel Ruiz,total_revenue,17.98
+top_products,The Four Agreements by Don Miguel Ruiz,total_quantity,2.0
+top_products,Neutrogena Hydro Boost Water Gel,total_revenue,16.99
+top_products,Neutrogena Hydro Boost Water Gel,total_quantity,1.0
+top_products,Mouse,total_revenue,15.0
+top_products,Mouse,total_quantity,1.0
+top_products,Biore UV Aqua Rich Watery Essence Sunscreen,total_revenue,15.0
+top_products,Biore UV Aqua Rich Watery Essence Sunscreen,total_quantity,1.0
+top_products,The Ordinary Hyaluronic Acid Serum,total_revenue,6.8
+top_products,The Ordinary Hyaluronic Acid Serum,total_quantity,1.0
+top_products,The Ordinary Caffeine Solution 5% + EGCG,total_revenue,6.7
+top_products,The Ordinary Caffeine Solution 5% + EGCG,total_quantity,1.0
+top_products,The Ordinary Niacinamide Serum,total_revenue,6.5
+top_products,The Ordinary Niacinamide Serum,total_quantity,1.0
+top_products,Docs Success Row,total_revenue,2.0
+top_products,Docs Success Row,total_quantity,2.0
+city_revenue,North America,total_revenue,36844.34
+city_revenue,North America,total_orders,80.0
+city_revenue,Asia,total_revenue,22455.45
+city_revenue,Asia,total_orders,80.0
+city_revenue,Europe,total_revenue,21268.06
+city_revenue,Europe,total_orders,80.0
+city_revenue,Can Tho,total_revenue,245.0
+city_revenue,Can Tho,total_orders,2.0
+city_revenue,Da Nang,total_revenue,186.0
+city_revenue,Da Nang,total_orders,2.0
+city_revenue,Ho Chi Minh,total_revenue,115.0
+city_revenue,Ho Chi Minh,total_orders,3.0
+city_revenue,Ha Noi,total_revenue,100.0
+city_revenue,Ha Noi,total_orders,3.0
+city_revenue,Hanoi,total_revenue,2.0
+city_revenue,Hanoi,total_orders,2.0
+pipeline_summary,summary,total_orders,252.0
+pipeline_summary,summary,total_revenue,81215.85
+pipeline_summary,summary,total_processed_files,5.0
+pipeline_summary,summary,success_files,2.0
+pipeline_summary,summary,failed_files,1.0
+pipeline_summary,summary,skipped_duplicate_files,2.0

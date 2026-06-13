@@ -144,6 +144,20 @@ Reports are generated in `data/output/`. This folder is ignored by Git because i
 - `city_revenue.csv`
 - `pipeline_summary.csv`
 
+For PowerBI web users who can only import one CSV file, create a consolidated long-format dataset:
+
+```powershell
+python scripts\create_powerbi_single_csv.py
+```
+
+This generates:
+
+```text
+data/output/powerbi_dashboard_dataset.csv
+```
+
+Import `data/output/powerbi_dashboard_dataset.csv` into PowerBI web for dashboard proof.
+
 ## Logging
 
 CloudFlow writes readable logs to the console and detailed logs to:
@@ -221,10 +235,6 @@ GitHub Actions runs the same unit-test and static-check workflow on `push` and `
 ### PostgreSQL Processing Tracking
 
 ![PostgreSQL Tracking](docs/images/postgresql-tracking.png)
-
-### CI Status
-
-The live CI status is shown by the GitHub Actions badge at the top of this README.
 
 ## Screenshot Capture Instructions
 
