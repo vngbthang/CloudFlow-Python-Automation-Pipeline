@@ -1,0 +1,162 @@
+You are working in my existing repository:
+
+`CloudFlow-Python-Automation-Pipeline`
+
+The project is a Python automation pipeline for processing recurring CSV business reports.
+
+Current upgraded architecture:
+
+Kaggle CSV reports
+→ Python batch runner
+→ Floci S3-compatible bucket using boto3
+→ Floci SQS-compatible queue using boto3
+→ Python worker
+→ SHA256 file hash duplicate check
+→ Pandas validation and cleaning
+→ PostgreSQL tables: `orders_cleaned` and `processed_files`
+→ SQL KPI reports
+→ PowerBI-ready CSV outputs
+
+Important project requirements:
+
+* Do not use SQLite.
+* Keep PostgreSQL as the only database.
+* Keep Floci, boto3, S3-compatible storage, and SQS-compatible queue.
+* Do not add Spark, Airflow, FastAPI, Selenium, or web UI.
+* Keep the project focused on Python automation, SQL, AWS-compatible local services, PostgreSQL, and PowerBI-ready reporting.
+
+Current files include:
+
+* `src/config.py`
+* `src/create_resources.py`
+* `src/upload_file.py`
+* `src/worker.py`
+* `src/processor.py`
+* `src/database.py`
+* `src/report.py`
+* `src/run_pipeline.py`
+* `src/utils.py`
+* `tests/test_processor.py`
+* `tests/test_utils.py`
+* `data/input/orders_kaggle.csv`
+* `data/input/orders_bad.csv`
+* `docker-compose.yml`
+* `requirements.txt`
+* `README.md`
+
+Please do a final production-like cleanup and verification.
+
+Tasks:
+
+1. Check git status
+
+   * If `data/input/orders_sample.csv` is deleted, restore it if possible.
+   * I want to keep `orders_sample.csv` because the processor supports both the original schema and the Kaggle schema.
+   * Do not delete `orders_kaggle.csv`.
+   * Do not delete `orders_bad.csv`.
+
+2. Verify project behavior
+
+   * Run:
+
+     ```powershell
+     .\.venv\Scripts\python.exe -m py_compile src\processor.py src\report.py src\run_pipeline.py src\worker.py src\upload_file.py src\create_resources.py src\database.py src\utils.py
+     .\.venv\Scripts\python.exe -m pytest
+     .\.venv\Scripts\python.exe src\run_pipeline.py
+     ```
+   * Then run the pipeline a second time:
+
+     ```powershell
+     .\.venv\Scripts\python.exe src\run_pipeline.py
+     ```
+   * Confirm duplicate handling works and that the second run logs duplicate files as `SKIPPED_DUPLICATE`.
+
+3. Verify PostgreSQL tracking
+
+   * Use Docker/psql or Python SQLAlchemy to query `processed_files`.
+   * Show the latest rows:
+
+     ```sql
+     SELECT file_name, status, row_count, error_message, processed_at
+     FROM processed_files
+     ORDER BY processed_at DESC;
+     ```
+   * Confirm:
+
+     * `orders_kaggle.csv` has `SUCCESS` or duplicate tracking behavior.
+     * `orders_bad.csv` has `FAILED`.
+     * duplicate files are tracked as `SKIPPED_DUPLICATE`.
+
+4. Verify output reports
+
+   * Confirm these files are generated in `data/output/`:
+
+     * `daily_revenue.csv`
+     * `revenue_by_category.csv`
+     * `order_status_summary.csv`
+     * `top_products.csv`
+     * `city_revenue.csv`
+     * `pipeline_summary.csv`
+   * Print the first few rows of:
+
+     * `pipeline_summary.csv`
+     * `top_products.csv`
+     * `city_revenue.csv`
+
+5. Improve README if needed
+
+   * README should clearly explain:
+
+     * project overview
+     * tech stack
+     * architecture
+     * Kaggle dataset usage
+     * Floci S3/SQS local AWS-compatible workflow
+     * PostgreSQL cleaned data and processing logs
+     * duplicate detection using SHA256
+     * failed file tracking
+     * PowerBI-ready KPI reports
+     * setup commands
+     * run commands
+     * test commands
+     * how to verify `processed_files`
+     * how to verify duplicate skipping
+     * how to verify failed file tracking
+   * Keep README professional and concise.
+
+6. Ensure `.gitignore` is correct
+
+   * It should ignore:
+
+     * `.venv/`
+     * `.env`
+     * `__pycache__/`
+     * `*.pyc`
+     * `data/downloaded/`
+     * `data/output/`
+   * But it should not ignore:
+
+     * `data/input/orders_kaggle.csv`
+     * `data/input/orders_bad.csv`
+     * `data/input/orders_sample.csv`
+
+7. Do not commit automatically.
+
+   * After all checks, tell me:
+
+     * exactly which files changed
+     * whether tests passed
+     * whether full pipeline passed
+     * whether duplicate skipping passed
+     * whether failed file tracking passed
+     * what commands I should run to commit and push
+
+This project must remain aligned with this CV description:
+
+CloudFlow: Python Automation Pipeline
+Python, SQL, Pandas, boto3, Floci, Docker, PostgreSQL, PowerBI
+
+* Built a Python automation pipeline to ingest, validate, and process recurring CSV business reports with minimal manual effort.
+* Integrated S3/SQS-compatible services using boto3 and Floci as a local AWS emulator for file storage and job queuing.
+* Designed modular components for file ingestion, message publishing, worker-based processing, data validation, duplicate detection, and report generation.
+* Stored cleaned data and processing logs in PostgreSQL, generating PowerBI-ready KPI reports for revenue trends, category performance, and order status analysis.

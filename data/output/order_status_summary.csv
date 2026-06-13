@@ -1,0 +1,4 @@
+order_status,total_orders,total_revenue
+Completed,201,68239.75
+Pending,35,11083.31
+Cancelled,14,1890.79

@@ -1,0 +1,2 @@
+Transaction ID,Date,Product Name,Units Sold,Unit Price,Region
+BAD-001,not-a-date,Broken Row,-5,10.00,Nowhere

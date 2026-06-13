@@ -54,9 +54,44 @@ def generate_reports():
     ORDER BY total_orders DESC;
     '''
 
+    top_products_query = '''
+    SELECT
+        product_name,
+        SUM(revenue) AS total_revenue,
+        SUM(quantity) AS total_quantity
+    FROM orders_cleaned
+    GROUP BY product_name
+    ORDER BY total_revenue DESC;
+    '''
+
+    city_revenue_query = '''
+    SELECT
+        city,
+        SUM(revenue) AS total_revenue,
+        COUNT(*) AS total_orders
+    FROM orders_cleaned
+    GROUP BY city
+    ORDER BY total_revenue DESC;
+    '''
+
+    pipeline_summary_query = '''
+    SELECT
+        (SELECT COUNT(*) FROM orders_cleaned) AS total_orders,
+        (SELECT COALESCE(SUM(revenue), 0) FROM orders_cleaned) AS total_revenue,
+        COUNT(*) AS total_processed_files,
+        COUNT(*) FILTER (WHERE status = 'SUCCESS') AS success_files,
+        COUNT(*) FILTER (WHERE status = 'FAILED') AS failed_files,
+        COUNT(*) FILTER (WHERE status = 'SKIPPED_DUPLICATE') AS skipped_duplicate_files,
+        CURRENT_TIMESTAMP AS generated_at
+    FROM processed_files;
+    '''
+
     export_query_to_csv(daily_revenue_query, "daily_revenue.csv")
     export_query_to_csv(revenue_by_category_query, "revenue_by_category.csv")
     export_query_to_csv(order_status_summary_query, "order_status_summary.csv")
+    export_query_to_csv(top_products_query, "top_products.csv")
+    export_query_to_csv(city_revenue_query, "city_revenue.csv")
+    export_query_to_csv(pipeline_summary_query, "pipeline_summary.csv")
 
 
 if __name__ == "__main__":

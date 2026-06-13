@@ -1,0 +1,11 @@
+order_id,order_date,category,product_name,quantity,unit_price,order_status,customer_id,city
+O001,2026-06-01,Electronics,Keyboard,2,25.5,Completed,C001,Ho Chi Minh
+O002,2026-06-01,Electronics,Mouse,1,15.0,Completed,C002,Ha Noi
+O003,2026-06-02,Fashion,T-Shirt,3,12.0,Pending,C003,Da Nang
+O004,2026-06-02,Home,Desk Lamp,1,30.0,Cancelled,C004,Ho Chi Minh
+O005,2026-06-03,Electronics,Monitor,1,180.0,Completed,C005,Can Tho
+O006,2026-06-03,Fashion,Sneakers,1,55.0,Completed,C006,Ha Noi
+O007,2026-06-04,Home,Office Chair,2,75.0,Completed,C007,Da Nang
+O008,2026-06-04,Beauty,Face Wash,4,8.5,Pending,C008,Ho Chi Minh
+O009,2026-06-05,Electronics,USB-C Cable,5,6.0,Completed,C009,Ha Noi
+O010,2026-06-05,Fashion,Jacket,1,65.0,Cancelled,C010,Can Tho

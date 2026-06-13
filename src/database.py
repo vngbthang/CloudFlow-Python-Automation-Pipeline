@@ -32,6 +32,106 @@ def create_orders_table():
     print("PostgreSQL table is ready: orders_cleaned")
 
 
+def create_processed_files_table():
+    engine = get_engine()
+
+    create_table_sql = '''
+    CREATE TABLE IF NOT EXISTS processed_files (
+        id SERIAL PRIMARY KEY,
+        file_name TEXT NOT NULL,
+        s3_bucket TEXT NOT NULL,
+        s3_key TEXT NOT NULL,
+        file_hash TEXT NOT NULL,
+        status TEXT NOT NULL,
+        row_count INTEGER DEFAULT 0,
+        error_message TEXT,
+        processed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE(file_hash)
+    );
+    '''
+
+    with engine.begin() as connection:
+        connection.execute(text(create_table_sql))
+
+    print("PostgreSQL table is ready: processed_files")
+
+
+def is_file_hash_processed(file_hash: str) -> bool:
+    engine = get_engine()
+
+    with engine.begin() as connection:
+        result = connection.execute(
+            text(
+                '''
+                SELECT 1
+                FROM processed_files
+                WHERE file_hash = :file_hash
+                  AND status IN ('SUCCESS', 'SKIPPED_DUPLICATE')
+                LIMIT 1;
+                '''
+            ),
+            {"file_hash": file_hash},
+        )
+        return result.scalar() is not None
+
+
+def log_processed_file(
+    file_name,
+    s3_bucket,
+    s3_key,
+    file_hash,
+    status,
+    row_count=0,
+    error_message=None,
+):
+    engine = get_engine()
+
+    with engine.begin() as connection:
+        connection.execute(
+            text(
+                '''
+                INSERT INTO processed_files (
+                    file_name,
+                    s3_bucket,
+                    s3_key,
+                    file_hash,
+                    status,
+                    row_count,
+                    error_message
+                )
+                VALUES (
+                    :file_name,
+                    :s3_bucket,
+                    :s3_key,
+                    :file_hash,
+                    :status,
+                    :row_count,
+                    :error_message
+                )
+                ON CONFLICT (file_hash) DO UPDATE SET
+                    file_name = EXCLUDED.file_name,
+                    s3_bucket = EXCLUDED.s3_bucket,
+                    s3_key = EXCLUDED.s3_key,
+                    status = EXCLUDED.status,
+                    row_count = EXCLUDED.row_count,
+                    error_message = EXCLUDED.error_message,
+                    processed_at = CURRENT_TIMESTAMP;
+                '''
+            ),
+            {
+                "file_name": file_name,
+                "s3_bucket": s3_bucket,
+                "s3_key": s3_key,
+                "file_hash": file_hash,
+                "status": status,
+                "row_count": row_count,
+                "error_message": error_message,
+            },
+        )
+
+    print(f"Logged processed file: {file_name} ({status})")
+
+
 def insert_orders(df: pd.DataFrame):
     engine = get_engine()
 
@@ -103,4 +203,5 @@ def count_orders():
 
 if __name__ == "__main__":
     create_orders_table()
+    create_processed_files_table()
     print(f"Current row count: {count_orders()}")
