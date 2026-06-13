@@ -220,10 +220,6 @@ python -m black --check src tests
 
 GitHub Actions runs the same unit-test and static-check workflow on `push` and `pull_request`. CI does not require Docker, Floci, or PostgreSQL.
 
-## Demo Screenshots
-
-> Screenshots can be added after running the pipeline locally.
-
 ### Pipeline Execution
 
 ![Pipeline Execution](docs/images/pipeline-execution.png)
@@ -235,26 +231,6 @@ GitHub Actions runs the same unit-test and static-check workflow on `push` and `
 ### PostgreSQL Processing Tracking
 
 ![PostgreSQL Tracking](docs/images/postgresql-tracking.png)
-
-## Screenshot Capture Instructions
-
-Capture these screenshots manually after running the project:
-
-- Terminal output after running:
-
-```powershell
-.\scripts\run_pipeline.ps1
-```
-
-- The `data/output/` folder showing generated CSV reports
-- PostgreSQL `processed_files` query showing `SUCCESS`, `FAILED`, and `SKIPPED_DUPLICATE`
-- GitHub Actions CI green check if you want to add a verified CI screenshot later
-
-Suggested image file paths:
-
-- `docs/images/pipeline-execution.png`
-- `docs/images/generated-reports.png`
-- `docs/images/postgresql-tracking.png`
 
 ## Future Improvements
 
