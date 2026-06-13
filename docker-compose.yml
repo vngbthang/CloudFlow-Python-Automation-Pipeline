@@ -1,0 +1,21 @@
+services:
+  floci:
+    image: floci/floci:latest
+    container_name: cloudflow-floci
+    ports:
+      - "4566:4566"
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: cloudflow-postgres
+    environment:
+      POSTGRES_USER: cloudflow
+      POSTGRES_PASSWORD: cloudflow
+      POSTGRES_DB: cloudflow_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
