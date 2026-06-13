@@ -263,12 +263,3 @@ Suggested image file paths:
 - Add sample screenshots after a local run
 - Add optional documentation for importing generated CSV files into PowerBI
 
-## CV Alignment
-
-CloudFlow demonstrates a junior-developer-ready automation project:
-
-- Built a Python automation pipeline to ingest, validate, and process recurring CSV business reports with minimal manual effort
-- Integrated S3/SQS-compatible services using `boto3` and Floci as a local AWS emulator
-- Designed modular components for ingestion, queue messaging, worker processing, validation, duplicate detection, logging, and report generation
-- Stored cleaned data and processing logs in PostgreSQL
-- Generated PowerBI-ready KPI reports for revenue trends, category performance, order status, products, cities, and pipeline status
