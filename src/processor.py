@@ -2,7 +2,6 @@ from pathlib import Path
 
 import pandas as pd
 
-
 REQUIRED_COLUMNS = [
     "order_id",
     "order_date",
@@ -53,8 +52,7 @@ def _standardize_schema(df: pd.DataFrame) -> pd.DataFrame:
     standardized = df[kaggle_columns].rename(columns=KAGGLE_COLUMN_MAP).copy()
     standardized["customer_id"] = "UNKNOWN"
     standardized["order_status"] = [
-        _generate_order_status(row_number)
-        for row_number in range(1, len(standardized) + 1)
+        _generate_order_status(row_number) for row_number in range(1, len(standardized) + 1)
     ]
 
     return standardized[REQUIRED_COLUMNS]

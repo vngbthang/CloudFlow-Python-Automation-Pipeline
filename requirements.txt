@@ -4,3 +4,6 @@ psycopg2-binary
 python-dotenv
 SQLAlchemy
 pytest
+ruff
+black
+Pillow

@@ -3,12 +3,15 @@ from botocore.exceptions import ClientError
 
 from config import (
     AWS_ACCESS_KEY_ID,
-    AWS_SECRET_ACCESS_KEY,
     AWS_ENDPOINT_URL,
     AWS_REGION,
+    AWS_SECRET_ACCESS_KEY,
     S3_BUCKET,
     SQS_QUEUE_NAME,
 )
+from logger import get_logger
+
+logger = get_logger(__name__)
 
 
 def create_s3_client():
@@ -34,22 +37,22 @@ def create_sqs_client():
 def create_bucket_if_not_exists(s3_client):
     try:
         s3_client.head_bucket(Bucket=S3_BUCKET)
-        print(f"S3 bucket already exists: {S3_BUCKET}")
+        logger.info("S3 bucket already exists: %s", S3_BUCKET)
     except ClientError:
         s3_client.create_bucket(Bucket=S3_BUCKET)
-        print(f"Created S3 bucket: {S3_BUCKET}")
+        logger.info("Created S3 bucket: %s", S3_BUCKET)
 
 
 def create_queue_if_not_exists(sqs_client):
     response = sqs_client.create_queue(QueueName=SQS_QUEUE_NAME)
     queue_url = response["QueueUrl"]
-    print(f"SQS queue ready: {SQS_QUEUE_NAME}")
-    print(f"Queue URL: {queue_url}")
+    logger.info("SQS queue ready: %s", SQS_QUEUE_NAME)
+    logger.info("Queue URL: %s", queue_url)
     return queue_url
 
 
 def main():
-    print("Creating CloudFlow local AWS-compatible resources...")
+    logger.info("Creating CloudFlow local AWS-compatible resources...")
 
     s3_client = create_s3_client()
     sqs_client = create_sqs_client()
@@ -57,7 +60,7 @@ def main():
     create_bucket_if_not_exists(s3_client)
     create_queue_if_not_exists(sqs_client)
 
-    print("CloudFlow resources are ready.")
+    logger.info("CloudFlow resources are ready.")
 
 
 if __name__ == "__main__":

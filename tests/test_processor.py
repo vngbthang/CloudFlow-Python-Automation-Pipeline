@@ -17,8 +17,10 @@ def test_kaggle_schema_is_converted_to_unified_schema(tmp_path):
         tmp_path,
         "\n".join(
             [
-                "Transaction ID,Date,Product Category,Product Name,Units Sold,Unit Price,Total Revenue,Region,Payment Method",
-                "10001,2024-01-01,Electronics,iPhone 14 Pro,2,999.99,1999.98,North America,Credit Card",
+                "Transaction ID,Date,Product Category,Product Name,Units Sold,"
+                "Unit Price,Total Revenue,Region,Payment Method",
+                "10001,2024-01-01,Electronics,iPhone 14 Pro,2,999.99,"
+                "1999.98,North America,Credit Card",
             ]
         ),
     )

@@ -2,6 +2,9 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 from config import DATABASE_URL
+from logger import get_logger
+
+logger = get_logger(__name__)
 
 
 def get_engine():
@@ -11,7 +14,7 @@ def get_engine():
 def create_orders_table():
     engine = get_engine()
 
-    create_table_sql = '''
+    create_table_sql = """
     CREATE TABLE IF NOT EXISTS orders_cleaned (
         order_id TEXT PRIMARY KEY,
         order_date DATE NOT NULL,
@@ -24,18 +27,18 @@ def create_orders_table():
         city TEXT,
         revenue NUMERIC(12, 2) NOT NULL
     );
-    '''
+    """
 
     with engine.begin() as connection:
         connection.execute(text(create_table_sql))
 
-    print("PostgreSQL table is ready: orders_cleaned")
+    logger.info("PostgreSQL table is ready: orders_cleaned")
 
 
 def create_processed_files_table():
     engine = get_engine()
 
-    create_table_sql = '''
+    create_table_sql = """
     CREATE TABLE IF NOT EXISTS processed_files (
         id SERIAL PRIMARY KEY,
         file_name TEXT NOT NULL,
@@ -48,12 +51,12 @@ def create_processed_files_table():
         processed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         UNIQUE(file_hash)
     );
-    '''
+    """
 
     with engine.begin() as connection:
         connection.execute(text(create_table_sql))
 
-    print("PostgreSQL table is ready: processed_files")
+    logger.info("PostgreSQL table is ready: processed_files")
 
 
 def is_file_hash_processed(file_hash: str) -> bool:
@@ -61,15 +64,13 @@ def is_file_hash_processed(file_hash: str) -> bool:
 
     with engine.begin() as connection:
         result = connection.execute(
-            text(
-                '''
+            text("""
                 SELECT 1
                 FROM processed_files
                 WHERE file_hash = :file_hash
                   AND status IN ('SUCCESS', 'SKIPPED_DUPLICATE')
                 LIMIT 1;
-                '''
-            ),
+                """),
             {"file_hash": file_hash},
         )
         return result.scalar() is not None
@@ -88,8 +89,7 @@ def log_processed_file(
 
     with engine.begin() as connection:
         connection.execute(
-            text(
-                '''
+            text("""
                 INSERT INTO processed_files (
                     file_name,
                     s3_bucket,
@@ -116,8 +116,7 @@ def log_processed_file(
                     row_count = EXCLUDED.row_count,
                     error_message = EXCLUDED.error_message,
                     processed_at = CURRENT_TIMESTAMP;
-                '''
-            ),
+                """),
             {
                 "file_name": file_name,
                 "s3_bucket": s3_bucket,
@@ -129,7 +128,12 @@ def log_processed_file(
             },
         )
 
-    print(f"Logged processed file: {file_name} ({status})")
+    if status == "FAILED":
+        logger.error("Logged processed file: %s (%s)", file_name, status)
+    elif status == "SKIPPED_DUPLICATE":
+        logger.warning("Logged processed file: %s (%s)", file_name, status)
+    else:
+        logger.info("Logged processed file: %s (%s)", file_name, status)
 
 
 def insert_orders(df: pd.DataFrame):
@@ -138,8 +142,7 @@ def insert_orders(df: pd.DataFrame):
     with engine.begin() as connection:
         for _, row in df.iterrows():
             connection.execute(
-                text(
-                    '''
+                text("""
                     INSERT INTO orders_cleaned (
                         order_id,
                         order_date,
@@ -174,8 +177,7 @@ def insert_orders(df: pd.DataFrame):
                         customer_id = EXCLUDED.customer_id,
                         city = EXCLUDED.city,
                         revenue = EXCLUDED.revenue;
-                    '''
-                ),
+                    """),
                 {
                     "order_id": row["order_id"],
                     "order_date": row["order_date"],
@@ -190,7 +192,7 @@ def insert_orders(df: pd.DataFrame):
                 },
             )
 
-    print(f"Inserted/updated {len(df)} rows into PostgreSQL.")
+    logger.info("Inserted/updated %s rows into PostgreSQL.", len(df))
 
 
 def count_orders():
@@ -204,4 +206,4 @@ def count_orders():
 if __name__ == "__main__":
     create_orders_table()
     create_processed_files_table()
-    print(f"Current row count: {count_orders()}")
+    logger.info("Current row count: %s", count_orders())

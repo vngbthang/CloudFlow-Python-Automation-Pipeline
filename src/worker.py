@@ -5,25 +5,26 @@ import boto3
 
 from config import (
     AWS_ACCESS_KEY_ID,
-    AWS_SECRET_ACCESS_KEY,
     AWS_ENDPOINT_URL,
     AWS_REGION,
+    AWS_SECRET_ACCESS_KEY,
     SQS_QUEUE_NAME,
 )
-from processor import load_and_clean_orders
 from database import (
+    count_orders,
     create_orders_table,
     create_processed_files_table,
     insert_orders,
-    count_orders,
     is_file_hash_processed,
     log_processed_file,
 )
+from logger import get_logger
+from processor import load_and_clean_orders
 from report import generate_reports
 from utils import calculate_file_hash
 
-
 DOWNLOAD_DIR = Path("data/downloaded")
+logger = get_logger(__name__)
 
 
 def create_s3_client():
@@ -57,7 +58,7 @@ def download_file_from_s3(s3_client, bucket: str, key: str) -> Path:
     local_path = DOWNLOAD_DIR / key
     s3_client.download_file(bucket, key, str(local_path))
 
-    print(f"Downloaded file from S3: s3://{bucket}/{key} -> {local_path}")
+    logger.info("Downloaded file from S3: s3://%s/%s -> %s", bucket, key, local_path)
     return local_path
 
 
@@ -70,10 +71,10 @@ def process_message(s3_client, message):
 
     local_file = download_file_from_s3(s3_client, bucket, key)
     file_hash = calculate_file_hash(local_file)
-    print(f"File SHA256: {file_hash}")
+    logger.info("File SHA256: %s", file_hash)
 
     if is_file_hash_processed(file_hash):
-        print(f"Skipping duplicate file: {file_name}")
+        logger.warning("Skipping duplicate file: %s", file_name)
         log_processed_file(
             file_name=file_name,
             s3_bucket=bucket,
@@ -87,12 +88,12 @@ def process_message(s3_client, message):
         return
 
     cleaned_df = load_and_clean_orders(local_file)
-    print(f"Cleaned rows: {len(cleaned_df)}")
+    logger.info("Cleaned rows: %s", len(cleaned_df))
 
     insert_orders(cleaned_df)
 
     total_rows = count_orders()
-    print(f"Total rows in PostgreSQL: {total_rows}")
+    logger.info("Total rows in PostgreSQL: %s", total_rows)
 
     generate_reports()
     log_processed_file(
@@ -106,7 +107,7 @@ def process_message(s3_client, message):
 
 
 def main(max_messages: int | None = None):
-    print("Starting CloudFlow worker...")
+    logger.info("Starting CloudFlow worker...")
 
     s3_client = create_s3_client()
     sqs_client = create_sqs_client()
@@ -126,7 +127,7 @@ def main(max_messages: int | None = None):
         messages = response.get("Messages", [])
 
         if not messages:
-            print("No messages found in queue.")
+            logger.info("No messages found in queue.")
             break
 
         for message in messages:
@@ -134,7 +135,7 @@ def main(max_messages: int | None = None):
                 process_message(s3_client, message)
             except Exception as exc:
                 error_message = str(exc)
-                print(f"Failed to process message: {error_message}")
+                logger.error("Failed to process message: %s", error_message)
 
                 try:
                     body = json.loads(message["Body"])
@@ -158,7 +159,7 @@ def main(max_messages: int | None = None):
                     )
                     generate_reports()
                 except Exception as log_exc:
-                    print(f"Failed to log processing failure: {log_exc}")
+                    logger.error("Failed to log processing failure: %s", log_exc)
                     raise
 
             sqs_client.delete_message(
@@ -166,9 +167,12 @@ def main(max_messages: int | None = None):
                 ReceiptHandle=message["ReceiptHandle"],
             )
             processed_messages += 1
-            print(f"Message processed and deleted from SQS. Count: {processed_messages}")
+            logger.info(
+                "Message processed and deleted from SQS. Count: %s",
+                processed_messages,
+            )
 
-    print("CloudFlow worker completed.")
+    logger.info("CloudFlow worker completed.")
 
 
 if __name__ == "__main__":

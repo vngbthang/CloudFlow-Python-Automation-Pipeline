@@ -4,9 +4,10 @@ import pandas as pd
 from sqlalchemy import text
 
 from database import get_engine
-
+from logger import get_logger
 
 OUTPUT_DIR = Path("data/output")
+logger = get_logger(__name__)
 
 
 def export_query_to_csv(query: str, output_file: str):
@@ -20,11 +21,11 @@ def export_query_to_csv(query: str, output_file: str):
     output_path = OUTPUT_DIR / output_file
     df.to_csv(output_path, index=False)
 
-    print(f"Generated report: {output_path}")
+    logger.info("Generated report: %s", output_path)
 
 
 def generate_reports():
-    daily_revenue_query = '''
+    daily_revenue_query = """
     SELECT
         order_date,
         SUM(revenue) AS total_revenue,
@@ -32,9 +33,9 @@ def generate_reports():
     FROM orders_cleaned
     GROUP BY order_date
     ORDER BY order_date;
-    '''
+    """
 
-    revenue_by_category_query = '''
+    revenue_by_category_query = """
     SELECT
         category,
         SUM(revenue) AS total_revenue,
@@ -42,9 +43,9 @@ def generate_reports():
     FROM orders_cleaned
     GROUP BY category
     ORDER BY total_revenue DESC;
-    '''
+    """
 
-    order_status_summary_query = '''
+    order_status_summary_query = """
     SELECT
         order_status,
         COUNT(*) AS total_orders,
@@ -52,9 +53,9 @@ def generate_reports():
     FROM orders_cleaned
     GROUP BY order_status
     ORDER BY total_orders DESC;
-    '''
+    """
 
-    top_products_query = '''
+    top_products_query = """
     SELECT
         product_name,
         SUM(revenue) AS total_revenue,
@@ -62,9 +63,9 @@ def generate_reports():
     FROM orders_cleaned
     GROUP BY product_name
     ORDER BY total_revenue DESC;
-    '''
+    """
 
-    city_revenue_query = '''
+    city_revenue_query = """
     SELECT
         city,
         SUM(revenue) AS total_revenue,
@@ -72,9 +73,9 @@ def generate_reports():
     FROM orders_cleaned
     GROUP BY city
     ORDER BY total_revenue DESC;
-    '''
+    """
 
-    pipeline_summary_query = '''
+    pipeline_summary_query = """
     SELECT
         (SELECT COUNT(*) FROM orders_cleaned) AS total_orders,
         (SELECT COALESCE(SUM(revenue), 0) FROM orders_cleaned) AS total_revenue,
@@ -84,7 +85,7 @@ def generate_reports():
         COUNT(*) FILTER (WHERE status = 'SKIPPED_DUPLICATE') AS skipped_duplicate_files,
         CURRENT_TIMESTAMP AS generated_at
     FROM processed_files;
-    '''
+    """
 
     export_query_to_csv(daily_revenue_query, "daily_revenue.csv")
     export_query_to_csv(revenue_by_category_query, "revenue_by_category.csv")

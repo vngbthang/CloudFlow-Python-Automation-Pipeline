@@ -1,18 +1,21 @@
 import json
 import sys
+from datetime import UTC, datetime
 from pathlib import Path
-from datetime import datetime, timezone
 
 import boto3
 
 from config import (
     AWS_ACCESS_KEY_ID,
-    AWS_SECRET_ACCESS_KEY,
     AWS_ENDPOINT_URL,
     AWS_REGION,
+    AWS_SECRET_ACCESS_KEY,
     S3_BUCKET,
     SQS_QUEUE_NAME,
 )
+from logger import get_logger
+
+logger = get_logger(__name__)
 
 
 def create_s3_client():
@@ -43,7 +46,7 @@ def get_queue_url(sqs_client):
 def upload_file_to_s3(s3_client, file_path: Path):
     object_key = file_path.name
     s3_client.upload_file(str(file_path), S3_BUCKET, object_key)
-    print(f"Uploaded file to S3: s3://{S3_BUCKET}/{object_key}")
+    logger.info("Uploaded file to S3: s3://%s/%s", S3_BUCKET, object_key)
     return object_key
 
 
@@ -51,7 +54,7 @@ def send_processing_message(sqs_client, queue_url: str, object_key: str):
     message = {
         "bucket": S3_BUCKET,
         "key": object_key,
-        "uploaded_at": datetime.now(timezone.utc).isoformat(),
+        "uploaded_at": datetime.now(UTC).isoformat(),
     }
 
     response = sqs_client.send_message(
@@ -59,22 +62,22 @@ def send_processing_message(sqs_client, queue_url: str, object_key: str):
         MessageBody=json.dumps(message),
     )
 
-    print(f"Sent processing message to SQS. MessageId: {response['MessageId']}")
+    logger.info("Sent processing message to SQS. MessageId: %s", response["MessageId"])
 
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python src/upload_file.py <csv_file_path>")
+        logger.error("Usage: python src/upload_file.py <csv_file_path>")
         sys.exit(1)
 
     file_path = Path(sys.argv[1])
 
     if not file_path.exists():
-        print(f"File not found: {file_path}")
+        logger.error("File not found: %s", file_path)
         sys.exit(1)
 
     if file_path.suffix.lower() != ".csv":
-        print("Only CSV files are supported.")
+        logger.error("Only CSV files are supported.")
         sys.exit(1)
 
     s3_client = create_s3_client()
@@ -84,7 +87,7 @@ def main():
     object_key = upload_file_to_s3(s3_client, file_path)
     send_processing_message(sqs_client, queue_url, object_key)
 
-    print("Upload workflow completed.")
+    logger.info("Upload workflow completed.")
 
 
 if __name__ == "__main__":
